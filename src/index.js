@@ -2,7 +2,7 @@ import React from 'react';
 import { StyledFooter } from './Footer';
 
 const Footer = props => {
-  <StyledFooter {...props}/>
+  return <StyledFooter {...props}/>
 }
 
 export default Footer;
