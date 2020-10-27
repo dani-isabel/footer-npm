@@ -12,8 +12,7 @@ var _Footer = require("./Footer");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var Footer = function Footer(props) {
-  /*#__PURE__*/
-  _react["default"].createElement(_Footer.StyledFooter, props);
+  return /*#__PURE__*/_react["default"].createElement(_Footer.StyledFooter, props);
 };
 
 var _default = Footer;
