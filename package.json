@@ -1,10 +1,10 @@
 {
   "name": "@dani-isabel/footer-npm",
   "version": "2.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src --ignore ./node_modules --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   "author": "Daniela Bolivar",
   "license": "ISC",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/dani-isabel"
+    "registry": "https://npm.pkg.github.com/dani-isabel"
   },
   "bugs": {
     "url": "https://github.com/dani-isabel/footer-npm/issues"
@@ -30,5 +30,6 @@
   "dependencies": {
     "react-icons": "^3.11.0",
     "styled-components": "^5.2.0"
-  }
+  },
+  "description": ""
 }
