@@ -1,7 +1,10 @@
 {
   "name": "@dani-isabel/footer-npm",
   "version": "3.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel ./src --ignore ./node_modules --out-dir dist"
